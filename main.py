@@ -11,7 +11,7 @@ app = FastAPI()
 # Add this after app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # allow your frontend
+    allow_origins=["https://team-chatbot-frontend.vercel.app"],  # allow your frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
